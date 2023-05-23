@@ -1,5 +1,7 @@
+import AppStyled from "./AppStyled";
+
 const App = (): JSX.Element => {
-  return <p>Hello world!</p>;
+  return <AppStyled />;
 };
 
 export default App;
