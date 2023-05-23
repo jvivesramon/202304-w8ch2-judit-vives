@@ -1,4 +1,4 @@
-import AccesForm from "../AccesForm/AccesForm";
+import MainPersonalData from "../MainPersonalData/MainPersonalData";
 import AppStyled from "./AppStyled";
 
 const App = (): JSX.Element => {
@@ -9,7 +9,13 @@ const App = (): JSX.Element => {
         THE PERFECT APP TO SATISFY THE INHERENT NEED TO SHARE OUR DATA FOR
         NOTHING
       </span>
-      <AccesForm />
+      <MainPersonalData
+        birthday="23"
+        email="dwionn"
+        lastName="Vives"
+        name="Judit"
+        username="Jud"
+      />
     </AppStyled>
   );
 };
