@@ -19,6 +19,14 @@ const PersonalDataFormStyled = styled.form`
     text-align: center;
   }
 
+  .checkbox {
+    width: 32px;
+    height: 32px;
+    box-shadow: none;
+    background-color: #5b2196;
+    border: none;
+  }
+
   input {
     background-color: #edc40d;
     box-shadow: rgb(209, 174, 18) 1em 1em 0em inset;

@@ -1,4 +1,4 @@
-import LoginForm from "../LoginForm/LoginForm";
+import AccesForm from "../AccesForm/AccesForm";
 import AppStyled from "./AppStyled";
 
 const App = (): JSX.Element => {
@@ -9,7 +9,7 @@ const App = (): JSX.Element => {
         THE PERFECT APP TO SATISFY THE INHERENT NEED TO SHARE OUR DATA FOR
         NOTHING
       </span>
-      <LoginForm />
+      <AccesForm />
     </AppStyled>
   );
 };
