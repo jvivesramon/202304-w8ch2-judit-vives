@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "@fontsource/bebas-neue";
 
 const GlobalStyle = createGlobalStyle`
 *,
@@ -8,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {  
-  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-family: "Bebas Neue";
 }
 
 body,
@@ -41,6 +42,10 @@ button {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+input {
+  border: none;
 }
 `;
 
