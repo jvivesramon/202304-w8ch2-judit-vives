@@ -1,19 +1,19 @@
 import styled from "styled-components";
 
 const PersonalDataFormStyled = styled.form`
-  flex: auto;
   display: flex;
   flex-direction: column;
   padding: 30px;
-  gap: 30px;
+  margin-inline: auto;
+  gap: 35px;
   min-width: 260px;
   max-width: 500px;
-  max-height: 700px;
+  max-height: 650px;
   background-color: #ffe32c;
   box-shadow: rgb(52, 16, 87) 20px 20px 5px;
 
-  .data-title {
-    padding: 10px;
+  .data-title,
+  span {
     font-size: 40px;
     color: #5b2196;
     text-align: center;
